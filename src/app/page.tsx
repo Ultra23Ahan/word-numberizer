@@ -2,9 +2,11 @@
 import { convertToNumbers } from '@/lib/converter';
 export default function Home() {
   function handleConvert() {
-    const normalWords = document.getElementById('1')?.value || '';
+    const normalWords =
+      (document.getElementById('1') as HTMLTextAreaElement)?.value || '';
     const numberizedWords = convertToNumbers({ input: normalWords });
-    document.getElementById('2').value = numberizedWords;
+    (document.getElementById('2') as HTMLTextAreaElement).value =
+      numberizedWords;
   }
   return (
     <>
