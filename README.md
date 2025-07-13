@@ -5,14 +5,24 @@ this is a project that uses nextjs to convert words to semi-numbers
 
 ## for example:
 
-input:<br />
-Hello World!<br />
-output:<br />
+input:
+
+Hello World!
+
+output:
+
 HƐllØ WØгld!
 
 ### OR:
 
-input:<br />
-ELEET HAXOR<br />
-output:<br />
+input:
+
+ELEET HAXOR
+
+output:
+
 ƐLƐƐT H4×Øг
+
+Website:
+
+[Word Numberizer](https://word-numberizer.vercel.app/)
